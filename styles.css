@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+
+/* Header section style */
+
+.header{
+    gap: 40px;
+    padding: 8px;
+    background: #f5f6ea;
+    border-bottom: 1px solid #ddd;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+}
+.logo{
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+.links :hover{
+    border: 1px solid rebeccapurple;
+   
+}
+
+/* Hero section style */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9867C5;
+    gap: 150px;
+    height: 600px;
+
+}
+
+/* Buttons style */
+
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: green;
+}
+
+.button1:hover {
+    background-color: #4CAF50;  
+  }
+
+.button2 {
+    background-color: blue;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+  }
+
