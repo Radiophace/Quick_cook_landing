@@ -23,7 +23,7 @@ body {
     margin: auto;
 }
 .logo{
-    color: rebeccapurple;
+    color: #0088cc;
     font-size: 32px;
     font-weight: 900;
     font-style: italic;
@@ -37,15 +37,19 @@ ul{
     list-style-type: none;
 }
 
-a{
+.nav-link{
     text-decoration: none;
     color: rebeccapurple;
+    padding: 15px;
+    
 }
 
-.links :hover{
-    border: 1px solid rebeccapurple;
-   
+.nav-link:hover{
+    background-color: blanchedalmond;
+    color: #3ca1eb;
+    border-bottom: 3px solid #0088cc;
 }
+
 
 /* Hero section style */
 
