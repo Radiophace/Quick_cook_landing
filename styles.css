@@ -1,19 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 body {
     margin: 0;
     background: #eee;
-    font-family: Besley, serif;
+    font-family: 'Roboto', sans-serif;
   }
 
-/* Header section style */
+/* Header section style */  /* */
 
 .header{
     gap: 40px;
     padding: 8px;
-    background: #f5f6ea;
-    border-bottom: 1px solid #ddd;
+    background: #ffc09f;
+     border-bottom: 1px solid #dea689;
 }
 .wrapper{
     display: flex;
@@ -21,6 +21,7 @@ body {
     justify-content: space-between;
     max-width: 1140px;
     margin: auto;
+    gap: 125px;
 }
 .logo{
     color: #0088cc;
@@ -39,13 +40,11 @@ ul{
 
 .nav-link{
     text-decoration: none;
-    color: rebeccapurple;
+    color: #3ca1eb;
     padding: 15px;
-    
 }
 
 .nav-link:hover{
-    background-color: blanchedalmond;
     color: #3ca1eb;
     border-bottom: 3px solid #0088cc;
 }
@@ -55,18 +54,28 @@ ul{
 
 .hero{
     display: flex;
-    align-items: center;
-    justify-content: center;
     background: #ffc09f;
-    gap: 50px;
     height: 450px;
+}
 
+.hero-left h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero-left p{
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0;
 }
 
 .img-hero img{
     width: 500px;
     height: 300px;
     border-radius: 15px;
+    border: 3px solid #95b8d1;
+    background-color: #7faeb9;
 }
 /* Buttons style */
 
@@ -126,5 +135,27 @@ ul{
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    padding-bottom: 32px;
+    padding: 32px 0;
+  }
+
+  /* Quote section style */
+
+  .quote{
+      background-color: aliceblue;
+      display: flex;
+      flex-direction: column;
+      padding: 70px 280px;
+  }
+
+  .quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+  }
+
+  .quote p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
   }
