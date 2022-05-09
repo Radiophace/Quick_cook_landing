@@ -63,6 +63,10 @@ ul{
 
 }
 
+.img-hero img{
+    width: 600px;
+    height: 300px;
+}
 /* Buttons style */
 
 .button{
@@ -92,3 +96,30 @@ ul{
     background-color: #008CBA;
   }
 
+
+  /* Info section style */
+
+    .container-info{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+        background-color: paleturquoise;
+        height: 200px;
+    }
+
+    .info{
+        max-width: 200px;
+    }
+  .container-info img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .info-title {
+    background-color: paleturquoise;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 32px;
+  }
